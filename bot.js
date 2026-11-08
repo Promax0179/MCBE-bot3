@@ -2,8 +2,8 @@ const bedrock = require('bedrock-protocol');
 const express = require('express');
 const http = require('http');
 
-const SERVER_HOST = 'F0rsak3nLand.aternos.me';
-const SERVER_PORT = 57963;
+const SERVER_HOST = 'pechecheprimev4.aternos.me';
+const SERVER_PORT = 19132;
 const USERNAME_1 = 'Haru';
 const USERNAME_2 = 'Fuyu';
 
