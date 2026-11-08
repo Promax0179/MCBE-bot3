@@ -12,6 +12,9 @@ jobs:
       - name: Descargar código
         uses: actions/checkout@v4
 
+      - name: Instalar dependencias del sistema para RakNet
+        run: sudo apt-get update && sudo apt-get install -y build-essential libc6-dev
+
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
